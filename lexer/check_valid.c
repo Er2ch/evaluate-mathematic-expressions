@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "data.c"
+#include "data.h"
 #include "lexer.c"
 
 short check_valid(Lexem_s **lexems, size_t length) {

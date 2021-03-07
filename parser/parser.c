@@ -3,8 +3,8 @@
 
 #pragma once
 
-#include "../lexer/data.c"
-#include "data.c"
+#include "../lexer/data.h"
+#include "data.h"
 #include "find_divider_pos.c"
 
 void parser(Node_s *node) { // No comments...

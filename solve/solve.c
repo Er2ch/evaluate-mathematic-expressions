@@ -3,8 +3,8 @@
 
 #pragma once
 
-#include "../parser/data.c"
-#include "../lexer/data.c"
+#include "../parser/data.h"
+#include "../lexer/data.h"
 
 #include "mini.c"
 
