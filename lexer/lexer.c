@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "data.h"
+#include "data.c"
 
 /*
     1 - Number
@@ -46,7 +46,9 @@ Lexem_s **lexer(char *expression, size_t *lexemsLength)
         if (current >= '0' && current <= '9')       type = 1;
         else if (current == '.')                    type = 2;
         else if (current == '+' || current == '-' 
-            || current == '*' || current == '/')    type = 3;
+            || current == '*' || current == '/'
+     || current == '^'
+    ) type = 3;
         else if (current == '(' || current == ')')  type = 4;
         else if (current != '\n' && current != ' ') return (unsigned)lexer_error(current, i);
 

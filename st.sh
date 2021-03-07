@@ -1,1 +1,1 @@
-gcc main.c && ./a.out
+make run
