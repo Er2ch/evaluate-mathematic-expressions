@@ -1,7 +1,7 @@
 FILE=a.out
 DEPS = main.c \
- lexer/check_valid.c lexer/data.c lexer/lexer.c \
- parser/data.c parser/find_divider_pos.c parser/free_tree.c parser/parser.c \
+ lexer/check_valid.c lexer/data.h lexer/lexer.c \
+ parser/data.h parser/find_divider_pos.c parser/free_tree.c parser/parser.c \
  solve/mini.c solve/solve.c
 
 $(FILE): $(DEPS)

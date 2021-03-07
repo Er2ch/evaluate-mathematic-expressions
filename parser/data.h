@@ -1,4 +1,4 @@
-#include "../lexer/data.c"
+#include "../lexer/data.h"
 
 #pragma once
 

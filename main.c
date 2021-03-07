@@ -3,10 +3,10 @@
 #include <string.h>
 
 #include "lexer/lexer.c"
-#include "lexer/data.c"
+#include "lexer/data.h"
 #include "lexer/check_valid.c"
 
-#include "parser/data.c"
+#include "parser/data.h"
 #include "parser/parser.c"
 #include "parser/free_tree.c"
 
